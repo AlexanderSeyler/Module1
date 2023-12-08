@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
