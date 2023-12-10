@@ -1,13 +1,14 @@
 function calculation(){
-    let n= parseInt(document.getElementById("text1").value);
-    let m= parseInt(document.getElementById("text2").value);
-    let result = document.getElementById("answer");
-    let sum = n+m;
+    var n= parseInt(document.getElementById("num1").value);
+    var m= parseInt(document.getElementById("num2").value);
+    
+    var sum = n+m;
 if (n == m){
-    result.textcontent = "Triple the sum: " + ((sum)*3);
-
+    let result = sum;
+    document.getElementById("answer").innerText = result;
 }
 else{
-    result.textcontent = "Sum" + (sum);
+    let result = sum/2;
+    document.getElementById("answer").innerText = result;
 }
 }
